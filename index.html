@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>gmdh02_00102</title>
+	  <link rel="stylesheet" type="text/css" href="style.css">
+	  <link rel="stylesheet" type="text/css" href="reset.css">
+    <!--<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32"/>-->
+    <script src="script.js"></script>
+  </head>
+
+
+<body>
+<div class="header">
+  <div class="back">
+    <p></p>
+  </div>
+  <div class="home">
+    <p>GMDH02_00102</p>
+  </div>
+  <div class="forward">
+    <p></p>
+  </div>
+</div>
+
+<div class="main">
+  <div class="posters">
+    <div class="left" onclick="posters()">
+    <img class="poster" src="images/final_poster1.jpg" alt="">
+    <img class="poster" src="images/final_poster2.jpg" alt="">
+    <img class="poster" src="images/final_poster3.jpg" alt="">
+    <img class="poster" src="images/final_poster4.jpg" alt="">
+  </div>
+    <p class="centered" onclick="posters()">Four Fists Posters</p>
+  </div>
+  <div class="books">
+    <div class="book">
+      <img  onclick="collect()" src="images/parallel_encyclopedia.gif" alt="">
+      <p class="centered" onclick="collect()">Collecting Fists</p>
+    </div>
+    <div class="book">
+      <img onclick="describe()" src="images/captions.gif" alt="">
+      <p class="centered" onclick="describe()">Describing Fists</p>
+    </div>
+    <div class="book">
+      <img onclick="juxtapose()" src="images/overprint.gif" alt="">
+      <p class="centered" onclick="juxtapose()">Juxtaposing Fists</p>
+    </div>
+  </div>
+</div>
+
+<div id="fistcontainer">
+</div>
+
+</div>
+
+  </body>
+</html>
