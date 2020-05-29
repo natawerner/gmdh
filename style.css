@@ -16,7 +16,7 @@ body {
   position: fixed;
   font-family: HelveticaNeue;
   font-size: 16px;
-  z-index: 3;
+  z-index: 4;
   cursor: default;
 }
 .home:hover {
@@ -222,7 +222,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  z-index: 4;
+  z-index: 2;
   opacity: 0%;
 }
 
