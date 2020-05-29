@@ -96,14 +96,19 @@ document.onmousemove = function(){
   var cont = document.getElementById('fistcontainer');
   var newElement = document.createElement('div');
       newElement.setAttribute('id', 'fistoverlay');
-      newElement.setAttribute('onclick', 'deleteoverlay()');
+      newElement.setAttribute('onmousemove', 'deleteoverlay()');
       cont.appendChild(newElement);
 
   var p = document.getElementById('fistoverlay');
   var newElement = document.createElement('img');
   p.appendChild(newElement);
 
-  newElement.setAttribute('src', overlays[m]);}, 3000);
+  newElement.setAttribute('src', overlays[m]);}, 10000);
+}
+
+document.onclick = function() {
+  const myNode = document.getElementById("fistcontainer");
+  myNode.innerHTML = '';
 }
 
 /*
