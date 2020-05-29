@@ -93,6 +93,7 @@ body {
   align-items: center;
 }
 .books img {
+  width: 45vh;
   height: 31vh;
   padding-bottom: 10px;
 }
@@ -229,12 +230,14 @@ body {
   text-align: center;
   flex-grow: 1;
   cursor: w-resize;
+  color: black;
 }
 
 #nextpage {
   text-align: center;
   flex-grow: 1;
   cursor: e-resize;
+  color: black;
 }
 #fistoverlay {
   position: fixed;

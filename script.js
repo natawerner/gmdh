@@ -127,7 +127,7 @@ document.onmousemove = function(){
   var newElement = document.createElement('img');
   p.appendChild(newElement);
 
-  newElement.setAttribute('src', overlays[m]);}, 10000);
+  newElement.setAttribute('src', overlays[m]);}, 5000);
 }
 
 document.onmousemove = function() {
