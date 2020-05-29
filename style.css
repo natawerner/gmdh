@@ -222,7 +222,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  z-index: 3;
+  z-index: 4;
   opacity: 0%;
 }
 
@@ -246,7 +246,7 @@ body {
   top: 0;
   left: 0;
   object-fit: cover;
-  z-index: 2;
+  z-index: 3;
 }
 #fistoverlay img {
 
