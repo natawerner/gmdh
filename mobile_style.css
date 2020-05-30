@@ -153,3 +153,7 @@ body {
   height: auto;
   padding: 20px;
 }
+
+#spread img {
+  height: auto;
+}

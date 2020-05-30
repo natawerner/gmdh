@@ -58,7 +58,6 @@ function nextpage(n) {
           p.appendChild(newElement);
       var parentElem = document.getElementById('spreads');
       parentElem.setAttribute('class', 'spreads2');
-
       document.getElementById("pagenumber").innerHTML = '';
   } else {
     if (x < n.length-1) {
@@ -68,7 +67,8 @@ function nextpage(n) {
     }
     document.getElementById('spread').src = n[x];
   }
-
+  var t = document.getElementById("footer");
+  t.style.display = "flex";
   document.getElementById("pagenumber").innerHTML = x+1;
 }
 
@@ -85,6 +85,8 @@ function previouspage(n, u) {
       var parentElem = document.getElementById('spreads');
       parentElem.setAttribute('class', 'spreads1');
       document.getElementById("pagenumber").innerHTML = '';
+      var t = document.getElementById("footer");
+      t.style.display = "none";
     } else {
       x--;
       document.getElementById('spread').src = n[x];

@@ -187,6 +187,9 @@ body {
 }
 
 
+#footer {
+  display: none;
+}
 
 #backtostart:hover {
   color: white;
