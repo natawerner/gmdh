@@ -3,6 +3,10 @@
   src: url('HelveticaNeueMedium.ttf');
 }
 
+.mobiletitle {
+  display: none;
+}
+
 body {
   background-color: black;
   color: red;
@@ -54,6 +58,12 @@ body {
   padding-right: 10px;
   text-align: center;
 }
+.poster {
+  width: 64vh;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
 .centered {
   position: absolute;
   top: 50%;
@@ -69,11 +79,7 @@ body {
   opacity: 100%;
   cursor: pointer;
 }
-.poster {
-  width: 64vh;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
+
 .left {
   padding-top: 40px;
   overflow: scroll;

@@ -5,6 +5,7 @@
     <title>gmdh02_00102</title>
 	  <link rel="stylesheet" type="text/css" href="style.css">
 	  <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" media="screen and (max-width: 1000px)" href="mobile_style.css">
     <!--<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32"/>-->
     <script src="script.js"></script>
   </head>
@@ -24,6 +25,9 @@
 </div>
 
 <div class="main">
+  <div class="mobileposters">
+    <p class="mobiletitle">Four Fist Posters</p>
+  </div>
   <div class="posters">
     <div class="left" onclick="posters()">
     <img class="poster" src="images/final_poster1.jpg" alt="">
@@ -35,14 +39,17 @@
   </div>
   <div class="books">
     <div class="book">
+      <p class="mobiletitle">Collecting Fists</p>
       <img  onclick="collect()" src="images/parallel_encyclopedia.gif" alt="">
       <p class="centered" onclick="collect()">Collecting Fists</p>
     </div>
     <div class="book">
+      <p class="mobiletitle">Describing Fists</p>
       <img onclick="describe()" src="images/captions.gif" alt="">
       <p class="centered" onclick="describe()">Describing Fists</p>
     </div>
     <div class="book">
+      <p class="mobiletitle">Juxtaposing Fists</p>
       <img onclick="juxtapose()" src="images/overprint.gif" alt="">
       <p class="centered" onclick="juxtapose()">Juxtaposing Fists</p>
     </div>
