@@ -55,7 +55,7 @@ body {
 
   }
 
-  .poster img {
+  .poster {
     width: 90vw;
     height: auto;
     padding-left: 10px;
@@ -63,7 +63,8 @@ body {
     padding-bottom: 10px;
   }
 
-  .poster {
+  .poster img {
+    height: auto;
 
   }
 
