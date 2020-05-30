@@ -37,7 +37,7 @@ body {
 }
 
   .main {
-    padding-top: 160px;
+    padding-top: 260px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -99,6 +99,15 @@ body {
 #fistoverlay img {
   width: auto;
   height: 100%;
+}
+
+.bigimages img {
+  padding-bottom: 60px;
+}
+
+.footerposters {
+  font-size: 40px;
+  padding-bottom: 60px;
 }
 
 #intro {
