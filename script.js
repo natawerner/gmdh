@@ -80,6 +80,7 @@ function previouspage(n, u) {
       var p = document.getElementById('spreads');
       var newElement = document.createElement('p');
       newElement.setAttribute('id', 'intro');
+      newElement.style.paddingTop = "120px";
       p.appendChild(newElement);
       document.getElementById("intro").innerHTML = texts[u];
       var parentElem = document.getElementById('spreads');
