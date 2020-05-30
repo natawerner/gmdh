@@ -45,7 +45,7 @@ body {
   }
   .posters {
     position: relative;
-    width: auto;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -56,7 +56,7 @@ body {
   }
 
   .poster {
-    width: 90vw;
+    width: 90%;
     height: auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -64,7 +64,7 @@ body {
   }
 
   .posters img {
-    height: auto;
+    height: 100%;
 
   }
 
