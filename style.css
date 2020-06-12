@@ -43,6 +43,10 @@ body {
   width: 30%;
   text-align: right;
 }
+.home {
+  flex-grow: 1;
+  text-align: center;
+}
 
 .main {
   display: flex;
